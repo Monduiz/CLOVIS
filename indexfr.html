@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=1, width=device-width" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>CLOVIS</title>
+
+   <link rel="stylesheet" href="assets/bootstrap-3.3.6/css/bootstrap.min.css">
+   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="assets/css/L.Control.Sidebar.css">
+   <link rel="stylesheet" href="assets/Leaflet/leaflet.css" />
+	<link rel="stylesheet" href="assets/css/MarkerCluster.css" />
+	<link rel="stylesheet" href="assets/css/MarkerCluster.Default.css" />
+	<link rel="stylesheet" href="assets/css//l.geosearch.css" />
+	<link rel="stylesheet" href="assets/css/main.css">
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">CLOVIS</a>
+      </div>
+      <div class="navbar-collapse collapse">
+	     <ul class="nav navbar-nav navbar-right">
+			<li><a href="index.html">En</a></li>
+			<li><a href="indexFr.html">Fr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+		</ul>
+
+		<ul class="nav navbar-nav">
+          <li><a href="info.html" data-toggle="collapse" data-target=".navbar-collapse.in">&nbsp;&nbsp;À propos</a></li>
+        </ul>
+		<ul class="nav nav-justified">
+          <li><a><div id="name"></div></a></li>
+        </ul>
+      </div><!--/.navbar-collapse -->
+    </div>
+
+		<div id="map"></div>
+		<div id="sidebar">
+			<div class="row">
+			<div id="AreaName"></div>
+			</div>
+			
+			<div id="row">
+				<div class="col-sm-6 text-center"><!--Column left-->
+				<button type = "button" class = "btn btn-default" id="cat1"></button>
+				</div>
+				
+				<div class="col-sm-6 text-center"><!--Column right-->
+				<button type = "button" class = "btn btn-default" id="cat2"></button>
+				</div>
+			</div>
+
+			<div id="row">
+			<div id="chart"></div>
+			</div>
+
+			<div id="row">
+			<div id="ExtraChart"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div id="chart2"></div>
+				</div>
+
+				<div class="col-sm-6">
+					<div id="chart3"></div>
+				</div>
+
+			</div>
+			<div class="row">
+			<div class="col-sm-6">
+					<div id="chart4"></div>
+				</div>
+
+				<div class="col-sm-6">
+					<div id="chart5"></div>
+				</div>
+			</div>
+			<div class="row">
+			<div class="col-sm-6">
+					<div id="chart6"></div>
+				</div>
+
+				<div class="col-sm-6">
+					<div id="chart7"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div id="chart8"></div>
+			</div>
+		</div>
+
+	<script src="assets/js/jquery-2.1.4.min.js"></script>
+     <script src="assets/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+     <script src="assets/Leaflet/leaflet.js"></script>
+	<script src="assets/js/d3.min.js" charset="utf-8"></script>
+	<script src="assets/js/leaflet.markercluster.js"></script>
+	<script src="assets/js/L.Control.Sidebar.js"></script>
+	<script src="assets/js/l.control.geosearchFr.js"></script>
+	<script src="assets/js/l.geosearch.provider.openstreetmap.js"></script>
+	<script src="assets/js/NB_Activities.js"></script>
+	<script src="assets/js/NB_Youth.js"></script>
+	<script src="assets/js/SLA.js"></script>
+	<script src="assets/js/main2.js"></script>
+  </body>
+</html>
