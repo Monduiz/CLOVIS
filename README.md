@@ -14,6 +14,6 @@ Developing visual information systems for ourselves in public service using cost
 
 ## License
 
-CLOVIS is available under the [ISC License] (https://opensource.org/licenses/ISC).
+CLOVIS is available under the open source [ISC License] (https://opensource.org/licenses/ISC).
 
 CLOVIS is making use of D3 for data visualizations and localization. [d3.js](http://d3js.org/) is available under a BSD-License.
